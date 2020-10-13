@@ -1,0 +1,27 @@
+{
+  "name": "phonebook-backend",
+  "version": "0.0.1",
+  "description": "backend server for phonebook. fullstack course part 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivisnauskis/fullstack-backend.git"
+  },
+  "author": "ivisnauskis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivisnauskis/fullstack-backend/issues"
+  },
+  "homepage": "https://github.com/ivisnauskis/fullstack-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
