@@ -44,10 +44,6 @@ let persons = [
   },
 ];
 
-app.get("/", (request, response) => {
-  response.send("<h1>Hello</h1>");
-});
-
 app.get("/info", (request, response) => {
   const count = persons.length;
   const date = new Date();
