@@ -1,1 +1,2 @@
-Persons api [Link](https://myfullstack2020backend.herokuapp.com/api/persons)
+Frontend [link](https://myfullstack2020backend.herokuapp.com/)
+Persons api [link](https://myfullstack2020backend.herokuapp.com/api/persons)
