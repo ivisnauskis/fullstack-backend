@@ -24,7 +24,7 @@ app.use(
 app.use(cors());
 
 app.get("/info", (request, response) => {
-  const count = persons.length;
+  const count = Person.find({}).length;
   const date = new Date();
   response.send(`
   <div>
@@ -54,7 +54,7 @@ app.get("/api/persons/:id", (request, response, next) => {
 
 app.delete("/api/persons/:id", (request, response, next) => {
   Person.findByIdAndRemove(request.params.id)
-    .then((result) => {
+    .then(() => {
       response.status(204).end();
     })
     .catch((error) => next(error));

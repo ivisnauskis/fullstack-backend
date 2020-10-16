@@ -33,7 +33,7 @@ const person = new Person({
 });
 
 if (process.argv.length === 5) {
-  person.save().then((result) => {
+  person.save().then(() => {
     console.log(`Added ${person.name} ${person.number} to the database`);
     mongoose.connection.close();
   });
